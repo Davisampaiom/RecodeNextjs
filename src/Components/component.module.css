@@ -1,0 +1,60 @@
+.header{
+
+    display:flex;
+    align-items:center;
+    
+    
+    background-color: red;
+    width: 180vh;
+    height: 8vh;
+}
+
+.a{
+    margin-left: 3vh;
+    text-decoration: none;
+
+    color:white;
+    
+    font-size:16px;
+
+}
+
+.a:hover{
+    font-size: 14px
+}
+
+.current{
+    color:blue;
+}
+
+.footer{
+    position:sticky;
+    bottom: 0;
+    left: 800px;
+    font-size:1.2rem
+}
+
+.produto{
+
+    width:40vh;
+
+    display: flex;
+    flex-direction:column;
+
+    align-items: center;
+    justify-content: center;
+
+    border:1px solid;
+    border-radius: 2vh;
+    
+    background-color:#fff;
+
+    margin:1vh;
+
+    padding-top: 1vh;
+}
+
+.img{
+    width:20vh;
+    height:30vh;
+}
